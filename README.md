@@ -9,16 +9,6 @@
   <img src="https://github.com/yourusername/cats-vs-dogs-transfer-learning/raw/main/images/demo.gif" width="600" alt="Demonstração do classificador">
 </div>
 
-## 📝 Sumário
-- [Visão Geral](#-visão-geral)
-- [Funcionalidades](#-funcionalidades)
-- [Tecnologias](#-tecnologias)
-- [Dataset](#-dataset)
-- [Arquitetura](#-arquitetura-do-modelo)
-- [Resultados](#-resultados)
-- [Como Usar](#-como-usar)
-- [Exemplos](#-exemplos)
-- [Licença](#-licença)
 
 ## 🌟 Visão Geral
 Classificador de imagens que diferencia entre gatos e cães utilizando Transfer Learning com o modelo VGG16 pré-treinado no ImageNet. Atingimos **96% de acurácia** com pouco tempo de treinamento.
@@ -58,16 +48,6 @@ Utilizamos o [Microsoft Cats vs Dogs Dataset](https://www.microsoft.com/en-us/do
   <img src="https://github.com/yourusername/cats-vs-dogs-transfer-learning/raw/main/images/demo.gif" width="600" alt="Classifier demo">
 </div>
 
-## 📝 Summary
-- [Overview](#-overview)
-- [Features](#-features)
-- [Technologies](#-technologies)
-- [Dataset](#-dataset)
-- [Model Architecture](#-model-architecture)
-- [Results](#-results)
-- [How to Use](#-how-to-use)
-- [Examples](#-examples)
-- [License](#-license)
 
 ## 🌟 Overview
 An image classifier that distinguishes between cats and dogs using Transfer Learning with the VGG16 model pre-trained on ImageNet. We achieved **96% accuracy** with minimal training time.
