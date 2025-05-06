@@ -12,6 +12,7 @@
 
 ## 🌟 Visão Geral
 Classificador de imagens que diferencia entre gatos e cães utilizando Transfer Learning com o modelo VGG16 pré-treinado no ImageNet. Atingimos **96% de acurácia** com pouco tempo de treinamento.
+
 Para ver o código a partir do google colab acesse o link: https://colab.research.google.com/drive/1EjQG1JMQoW7lfcnbkAx8vAcjy8XVKNFX#scrollTo=tgAMaEbs7wDF
 
 ## ✨ Funcionalidades
