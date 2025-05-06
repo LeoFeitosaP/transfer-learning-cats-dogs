@@ -45,13 +45,54 @@ Utilizamos o [Microsoft Cats vs Dogs Dataset](https://www.microsoft.com/en-us/do
   - Treino (80%)
   - Validação (20%)
 
-## 🧠 Arquitetura do Modelo
-```python
-model = Sequential([
-    VGG16(weights='imagenet', include_top=False, input_shape=(150, 150, 3)),
-    Flatten(),
-    Dense(256, activation='relu'),
-    Dropout(0.5),
-    Dense(1, activation='sigmoid')
-])
+  _ _ _ _ _ _ _
+
+  # 🐱❓🐶 Cats vs Dogs Classifier with Transfer Learning  
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
+<div align="center">
+  <img src="https://github.com/yourusername/cats-vs-dogs-transfer-learning/raw/main/images/demo.gif" width="600" alt="Classifier demo">
+</div>
+
+## 📝 Summary
+- [Overview](#-overview)
+- [Features](#-features)
+- [Technologies](#-technologies)
+- [Dataset](#-dataset)
+- [Model Architecture](#-model-architecture)
+- [Results](#-results)
+- [How to Use](#-how-to-use)
+- [Examples](#-examples)
+- [License](#-license)
+
+## 🌟 Overview
+An image classifier that distinguishes between cats and dogs using Transfer Learning with the VGG16 model pre-trained on ImageNet. We achieved **96% accuracy** with minimal training time.
+
+To view the code on Google Colab, access this link:  
+https://colab.research.google.com/drive/1EjQG1JMQoW7lfcnbkAx8vAcjy8XVKNFX#scrollTo=tgAMaEbs7wDF
+
+## ✨ Features
+- ✅ Binary classification (cat vs dog)
+- ✅ Data augmentation for better generalization
+- ✅ Training process visualization
+- ✅ Ready-to-use function for predictions on new images
+- ✅ Lightweight and efficient model
+
+## 💻 Technologies
+- **TensorFlow 2.x** - Deep learning framework
+- **Keras** - High-level API for TensorFlow
+- **VGG16** - Pre-trained CNN architecture
+- **OpenCV** - Image preprocessing
+- **Matplotlib** - Results visualization
+
+## 📁 Dataset
+We used the [Microsoft Cats vs Dogs Dataset](https://www.microsoft.com/en-us/download/details.aspx?id=54765):
+- 25,000 images (12,500 per class)
+- Automatically split into:
+  - Training (80%)
+  - Validation (20%)
 
